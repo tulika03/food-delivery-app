@@ -1,0 +1,22 @@
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.shimmer-cards {
+    padding: 15px;
+    margin: 20px;
+    width: 200px;
+    height: 250px;
+    border: none;
+    transition: 0.3s;
+    background-color: rgb(230, 230, 230);
+}
+
+.shimmer-image {
+    padding: 15px;
+    width: 170px;
+    height: 110px;
+    background-color: white;
+}

@@ -1,0 +1,48 @@
+.content {
+    height: 100%;
+}
+.loading-screen {
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background-color: #1a202c; /* Tailwind's `bg-gray-900` */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.whats_on_your_mind {
+    left: 0;
+    height: 30%;
+    background-color: white; /* Tailwind's `bg-gray-900` */
+    margin-left: calc(10% + 36px);
+    margin-right: calc(10% + 36px);
+}
+
+.top_restaurants {
+    left: 0;
+    height: 30%;
+    background-color: white; /* Tailwind's `bg-gray-900` */
+    margin-left: calc(10% + 36px);
+    margin-right: calc(10% + 36px);
+}
+
+hr {
+    margin-left: calc(10% + 36px);
+    margin-right: calc(10% + 36px);
+}
+.dishes-list {
+    height: 100%;
+    background-color: #1a202c
+}
+.res-container {
+    margin-left: calc(10% + 36px);
+    margin-right: calc(10% + 36px);
+}
+.bottom-content {
+    margin-left: calc(8% + 15px);
+    margin-right: calc(8% + 15px);
+}
+
+
+
