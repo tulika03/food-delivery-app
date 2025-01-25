@@ -32,15 +32,10 @@ const ResMenu = () => {
         "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
     );
 
-    // setCategoriesCopy(categories);
-
- 
-  // handle search Click
-  handleSearchClick = () => {
-      navigate("/search", {state: {categories: categories, resId: resId}});
-  }
-
-
+  // Define handleSearchClick function here inside the component body
+  const handleSearchClick = () => {
+    navigate("/search", { state: { categories: categories, resId: resId } });
+  };
   // Handler for the next button
   const handleNext = () => {
     if (startIndex + scrollBy < whatsOnMind.length) {

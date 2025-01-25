@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
 const ShowMore = (props) => {
   let { bottomData } = props;
-  fix_content = 11;
   const [topEleven, setTopEleven] = useState(
-    bottomData.card.brands.slice(0, fix_content)
+    bottomData.card.brands.slice(0, 11)
   );
   if (topEleven.length === 11)
     topEleven.push({ link: null, text: "Show More" });

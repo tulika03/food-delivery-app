@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import "../style.css";
 import Header from "./Pages/header/Header";
 import Content from "./Pages/content/Content";
-import About from "./Pages/about/about";
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
 import Error from './components/Error'
 import Contact from "./Pages/contact/Contact";
@@ -12,7 +11,6 @@ import useOnlineStatus from "../hooks/useOnlineStatus"
 import Login from "./Pages/login/Login";
 import ShimmerUI from "./components/shimmer";
 import Cart from "./Pages/cart/cart"
-import Loading from "./components/Loading";
 import UserContext from "../context/UserContext";
 import {Provider} from "react-redux";
 import appStore from "../store/appStore";
