@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "local": "parcel index.html",
-    "build": "parcel build index.html --dist-dir dist --public-url ./",
+    "build": "parcel build index.html --dist-dir dist --public-url /food-delivery-app/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
