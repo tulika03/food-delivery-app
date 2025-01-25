@@ -2,14 +2,14 @@
   "name": "Mom's Food",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://tulika03.github.io/food-delivery-app",
-  "scripts": {
-    "test": "jest",
-    "local": "parcel index.html",
-    "build": "parcel build index.html --dist-dir dist --public-url /food-delivery-app/",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+"scripts": {
+  "test": "jest",
+  "local": "parcel index.html",
+  "build": "parcel build index.html --dist-dir dist --public-url /food-delivery-app/",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
+"homepage": "https://tulika03.github.io/food-delivery-app",
   "author": "",
   "license": "ISC",
   "dependencies": {
