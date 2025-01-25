@@ -2,12 +2,11 @@
   "name": "Mom's Food",
   "version": "1.0.0",
   "description": "",
-  "main": "src/app.js",
   "homepage": "https://tulika03.github.io/food-delivery-app",
   "scripts": {
     "test": "jest",
     "local": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --dist-dir build --public-url /food-delivery-app/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },

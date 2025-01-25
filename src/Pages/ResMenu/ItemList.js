@@ -10,9 +10,11 @@ const ItemList = (props) => {
   const item = props?.item?.card?.info;
   const dispatch = useDispatch();
   const [quantity, setQuantity] = useState(0);
+
   const handleAddItem = (item) => {
-    dispatch(addRestaurantName(props.restaurantDetail.name));
-    dispatch(addLocation(props.restaurantDetail.areaName));
+    console.log(item)
+    dispatch(addRestaurantName(item.name));
+    dispatch(addLocation(item.areaName));
     setQuantity((prevQuantity) => prevQuantity + 1);
     dispatch(addItem(item));
     dispatch(setErrorMessage("Item added to cart"));

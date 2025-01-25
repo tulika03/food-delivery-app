@@ -4,7 +4,7 @@ import { useContext, useState } from "react";
 import UserContext from "../../../context/UserContext";
 import { MdOutlinePowerSettingsNew } from "react-icons/md";
 import { useSelector } from "react-redux";
-import logo from "../../../images/food-delivery-logo.svg"
+import logo from "../../images/food-delivery-logo.svg"
 import Drawer from "../../components/drawer";
 const Header = (color = 'primary', textColor = 'primaryText') => {
   const navigate = useNavigate();

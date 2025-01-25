@@ -18,7 +18,8 @@ import {Provider} from "react-redux";
 import appStore from "../store/appStore";
 import StickyNav from "./components/stickyNav";
 import SearchMenu from "./Pages/ResMenu/searchMenu";
-const About = lazy(() => import("./Pages/about/about"));
+import about from "./Pages/about/about";
+const About = lazy(() => import(about));
 
 const AppComponent = () => {
   const [loading, setLoading] = useState(true);
