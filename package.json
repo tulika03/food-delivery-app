@@ -6,9 +6,9 @@
   "scripts": {
     "test": "jest",
     "local": "parcel index.html",
-    "build": "parcel build index.html --dist-dir build --public-url /food-delivery-app/",
+    "build": "parcel build index.html --dist-dir dist --public-url /food-delivery-app/",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
