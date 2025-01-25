@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "local": "parcel index.html",
-    "build": "parcel build index.html --dist-dir dist --public-url /food-delivery-app/",
+    "build": "parcel build index.html --dist-dir dist --public-url ./",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
@@ -14,7 +14,6 @@
   "license": "ISC",
   "dependencies": {
     "@reduxjs/toolkit": "^2.1.0",
-    "parcel": "^2.10.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.49.2",
@@ -27,6 +26,7 @@
     "gh-pages": "^6.2.0",
     "postcss": "^8.4.33",
     "process": "^0.11.10",
+    "svgo": "^3.3.2",
     "tailwindcss": "^3.4.1"
   }
 }
